@@ -26,7 +26,7 @@ interface ICache {
      *
      * @param string $key
      * @param callable $fallback
-     * @param int|\DateInterval|\DateTime $validity Number of seconds this is valid for (if int)
+     * @param int|\DateInterval|\DateTime|callback $validity Number of seconds this is valid for (if int)
      * @return mixed
      */
     function getWithFallback($key, callable $fallback, $validity = null);

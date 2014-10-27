@@ -20,6 +20,9 @@
         "issues": "http://github.com/digitalcreations/cache/issues",
         "source": "http://github.com/digitalcreations/cache"
     },
+    "suggest": {
+        "dc/cache-memcache": ">=0.2"
+    },
     "autoload": {
         "psr-4": {
             "DC\\Cache\\": "src/Cache"
