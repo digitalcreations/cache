@@ -15,7 +15,10 @@ class InMemoryCache implements ICache
 
     function get($key)
     {
-        return $this->cache[$key];
+        if (isset($this->cache[$key])) {
+            return $this->cache[$key];
+        }
+        return null;
     }
 
     function set($key, $value, $validity = null)
