@@ -21,7 +21,11 @@
         "source": "http://github.com/digitalcreations/cache"
     },
     "suggest": {
-        "dc/cache-memcache": ">=0.2"
+        "dc/cache-memcache": ">=0.2",
+        "dc/ioc": "dev-master"
+    },
+    "require-dev": {
+        "dc/ioc": "dev-master"
     },
     "autoload": {
         "psr-4": {

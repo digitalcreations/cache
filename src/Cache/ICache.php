@@ -45,4 +45,16 @@ interface ICache {
      * @return void
      */
     function deleteAll();
+
+    /**
+     * Return an iterable list of all the keys in the cache.
+     *
+     * It is recommended that this list is iterated using a foreach, since that will allow the garbage collector
+     * to reclaim memory as we go along.
+     *
+     * There is no guarantee as to the ordering of the keys.
+     *
+     * @return array
+     */
+    function getAllKeys();
 } 

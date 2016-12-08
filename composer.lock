@@ -1,0 +1,123 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "692e234da9ec9bd5778ac2de1496abf2",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "dc/ioc",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/digitalcreations/ioc.git",
+                "reference": "eb71c2d7737d3c3ce381bea11a495ceb9f74f226"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/digitalcreations/ioc/zipball/eb71c2d7737d3c3ce381bea11a495ceb9f74f226",
+                "reference": "eb71c2d7737d3c3ce381bea11a495ceb9f74f226",
+                "shasum": ""
+            },
+            "require": {
+                "phpdocumentor/reflection-docblock": "2.*"
+            },
+            "require-dev": {
+                "dc/cache": "dev-master",
+                "dc/cache-memcached": "dev-master",
+                "phpunit/phpunit": "4.0.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DC\\IoC\\": "src/IoC"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Digital Creations AS",
+                    "homepage": "http://www.digitalcreations.no",
+                    "role": "Company"
+                },
+                {
+                    "name": "Vegard Andreas Larsen",
+                    "homepage": "http://vega.rd.no",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Simple IoC container",
+            "homepage": "http://github.com/digitalcreations/ioc",
+            "keywords": [
+                "dependency injection",
+                "di",
+                "inversion of control",
+                "ioc"
+            ],
+            "time": "2016-12-08T10:13:46+00:00"
+        },
+        {
+            "name": "phpdocumentor/reflection-docblock",
+            "version": "2.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
+                "reference": "d68dbdc53dc358a816f00b300704702b2eaff7b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/d68dbdc53dc358a816f00b300704702b2eaff7b8",
+                "reference": "d68dbdc53dc358a816f00b300704702b2eaff7b8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "suggest": {
+                "dflydev/markdown": "~1.0",
+                "erusev/parsedown": "~1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "phpDocumentor": [
+                        "src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mike van Riel",
+                    "email": "mike.vanriel@naenius.com"
+                }
+            ],
+            "time": "2015-02-03T12:10:50+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "dc/ioc": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
